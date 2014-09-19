@@ -99,15 +99,11 @@
     <Compile Include="Xamarin-2048ViewController.designer.cs">
       <DependentUpon>Xamarin-2048ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\NumberTileGameViewController.cs" />
-    <Compile Include="Views\NumberTileGameViewController.designer.cs">
-      <DependentUpon>NumberTileGameViewController.cs</DependentUpon>
-    </Compile>
+    <Compile Include="NumberTileGameViewController.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
     <InterfaceDefinition Include="MainStoryboard_iPad.storyboard" />
-    <InterfaceDefinition Include="Views\NumberTileGameViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>

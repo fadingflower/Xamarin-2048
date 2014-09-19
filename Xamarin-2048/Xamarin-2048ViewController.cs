@@ -31,8 +31,8 @@ namespace Xamarin2048
 			base.ViewDidLoad ();
 
 			this.StartButton.TouchUpInside+=(sender, e) => {
-				UIAlertView view=new UIAlertView("Xamarin-2048","Hello",null,"OK",null);
-				view.Show();
+				NumberTileGameViewController game=new NumberTileGameViewController(4,2048);
+				PresentViewController(game,true,null);
 
 			};
 			// Perform any additional setup after loading the view, typically from a nib.
